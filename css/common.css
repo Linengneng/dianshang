@@ -14,7 +14,7 @@ ul {
   margin-top: 20px;
 }
 .red {
-  color: #A94442;
+  color: #a94442;
 }
 
 .lt_aside {
@@ -23,7 +23,7 @@ ul {
   top: 0;
   width: 180px;
   height: 100%;
-  background-color: #222D32;
+  background-color: #222d32;
   z-index: 999;
   transition: all 1s;
 }
@@ -31,13 +31,12 @@ ul {
   left: -180px;
 }
 
-
 .lt_aside .brand {
   width: 100%;
   height: 50px;
   line-height: 50px;
   text-align: center;
-  background-color: #367FA9;
+  background-color: #367fa9;
 }
 .lt_aside .brand a {
   color: #fff;
@@ -71,7 +70,7 @@ ul {
   border-left: 3px solid transparent;
 }
 .lt_aside .nav a.current {
-  background-color: #1D1F21;
+  background-color: #1d1f21;
   border-left: 3px solid #006699;
 }
 .lt_aside .nav a i {
@@ -83,7 +82,6 @@ ul {
 .lt_aside .nav .child a {
   padding-left: 60px;
 }
-
 
 .lt_main {
   padding-left: 180px;
@@ -98,7 +96,7 @@ ul {
 .lt_topbar {
   width: 100%;
   height: 50px;
-  background-color: #3C8DBC;
+  background-color: #3c8dbc;
   position: fixed;
   left: 0;
   top: 0;
@@ -123,4 +121,10 @@ ul {
   width: 48%;
   height: 400px;
   background-color: skyblue;
+}
+/* 表格垂直居中 */
+.table.table-bordered th,
+.table.table-bordered td {
+  text-align: center;
+  vertical-align: middle;
 }
